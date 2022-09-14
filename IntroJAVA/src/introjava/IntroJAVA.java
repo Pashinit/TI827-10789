@@ -29,14 +29,7 @@ public class IntroJAVA {
     }
 
     private static void convertComprimento() {
-        float metros;
-        System.out.println("Insira valor em metros");
-        metros = ler.nextFloat();
-        System.out.println(metros+" (m) equivale a:\n"
-                +(metros*10)+" (dm)\n"
-                +(metros*100)+" (cm)\n"
-                +(metros*1000)+" (mm)\n"
-                +(metros/1000)+" (km)");
+
     }
 
     private static void convertePesos() {
