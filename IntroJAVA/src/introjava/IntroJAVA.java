@@ -41,7 +41,7 @@ public class IntroJAVA {
 
     private static void convertePesos() {
         float peso;
-        System.out.println("Insira valor em metros");
+        System.out.println("Insira valor em Kg");
         peso = ler.nextFloat();
         System.out.println(peso+" (m) equivale a:\n"
                 +(peso*10)+" (dg)\n"
@@ -51,7 +51,14 @@ public class IntroJAVA {
     }
 
     private static void converteMoedas() {
-        
+        float moeda;
+        System.out.println("Insira valor em euros");
+        moeda = ler.nextFloat();
+        System.out.println(moeda+" (m) equivale a:\n"
+                +(moeda*5.15)+" (R$)\n"
+                +(moeda)+" (USD)\n"
+                +(moeda*7.52)+" (Kuna Croata)\n"
+                +(moeda*143.24)+" (¥)");
     }
     
 }
